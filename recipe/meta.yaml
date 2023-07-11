@@ -1,5 +1,5 @@
 {% set name = "TSDB" %}
-{% set version = "0.0.8" %}
+{% set version = "0.0.9" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/WenjieDu/TSDB/archive/v{{ version }}.tar.gz
-  sha256: c3e990d1333e9900c31eba7a19a73c5170b32001419fab305a13fcaa852be1b5
+  sha256: 934d6344dd386392352896c502bbd529acbd18ddd1cbed3d06f875ca85974993
 
 build:
   noarch: python
@@ -35,7 +35,7 @@ test:
 
 about:
   home: https://github.com/WenjieDu/TSDB
-  summary: 'a python toolbox helping load time-series datasets easily'
+  summary: a python toolbox helping load time-series datasets easily
   description: |
     Project TSDB is created to help researchers and engineers get rid of data collecting and downloading, 
     and focus back on data processing details. TSDB provides all-in-one-stop convenience for downloading 
