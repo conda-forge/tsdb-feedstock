@@ -11,7 +11,7 @@ source:
 
 build:
   noarch: python
-  script: {{ PYTHON }} -m pip install . -vv
+  script: {{ PYTHON }} -m pip install . -vv --use-pep517
   number: 0
 
 requirements:
@@ -40,7 +40,7 @@ about:
     Project TSDB is created to help researchers and engineers get rid of data collecting and downloading, 
     and focus back on data processing details. TSDB provides all-in-one-stop convenience for downloading 
     and loading open-source time-series datasets.
-  license: GPL-3.0-only
+  license: BSD-3-Clause
   license_file: LICENSE
   doc_url: https://tsdb.readthedocs.io
   dev_url: https://github.com/WenjieDu/TSDB
