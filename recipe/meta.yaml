@@ -18,22 +18,18 @@ requirements:
   host:
     - python >=3.6
     - pip
-  run:
-    - python >=3.6
     - numpy
     - scikit-learn
     - pandas
     - scipy
+  run:
+    - python >=3.6
 
 test:
   imports:
     - tsdb
   requires:
     - pip
-    - numpy
-    - scikit-learn
-    - pandas
-    - scipy
   commands:
     - pip check
 
