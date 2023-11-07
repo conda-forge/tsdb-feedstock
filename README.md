@@ -5,7 +5,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/tsdb-feedstock/
 
 Home: https://github.com/WenjieDu/TSDB
 
-Package license: GPL-3.0-only
+Package license: BSD-3-Clause
 
 Summary: a python toolbox helping load time-series datasets easily
 
