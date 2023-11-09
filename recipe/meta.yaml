@@ -1,5 +1,5 @@
 {% set name = "TSDB" %}
-{% set version = "0.2" %}
+{% set version = "0.2.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/WenjieDu/TSDB/archive/v{{ version }}.tar.gz
-  sha256: aa18f3113c9ac21e2878378ea5471202bdff57c21a939d91e4cc6a8d35a66013
+  sha256: 351ae4470d963b6e4a61306b27fc1c71ace143a3ea2cfcbeeffc9271970dddd9
 
 build:
   noarch: python
