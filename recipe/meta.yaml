@@ -22,6 +22,7 @@ requirements:
     - scikit-learn
     - pandas
     - scipy
+    - pyarrow
   run:
     - python >=3.6
 
@@ -34,6 +35,7 @@ test:
     - scikit-learn
     - pandas
     - scipy
+    - pyarrow
   commands:
     - pip check
 
