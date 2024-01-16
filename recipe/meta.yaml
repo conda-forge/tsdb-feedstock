@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/WenjieDu/TSDB/archive/v{{ version }}.tar.gz
-  sha256: 963f9199cd7ae0e2a200d80580c1652564a4b030e5168159c38151e2dc656c36
+  sha256: 9c30e524b23c057fdaaad459acbb603ab2dc58ba4fcc8459781ba4b3a51d7a7e
 
 build:
   noarch: python
