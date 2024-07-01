@@ -18,37 +18,32 @@ requirements:
   host:
     - python >=3.6
     - pip
+  run:
+    - python >=3.6
     - numpy
     - scikit-learn
     - pandas
     - scipy
     - pyarrow
-  run:
-    - python >=3.6
 
 test:
   imports:
     - tsdb
   requires:
     - pip
-    - numpy
-    - scikit-learn
-    - pandas
-    - scipy
-    - pyarrow
   commands:
     - pip check
 
 about:
   home: https://github.com/WenjieDu/TSDB
-  summary: a python toolbox helping load time-series datasets easily
+  summary: a Python toolbox loads 172 public time series datasets for machine learning/deep learning with a single line of code. Datasets from multiple domains, e.g. healthcare, financial, power, traffic, and weather
   description: |
     Project TSDB is created to help researchers and engineers get rid of data collecting and downloading, 
     and focus back on data processing details. TSDB provides all-in-one-stop convenience for downloading 
     and loading open-source time-series datasets.
   license: BSD-3-Clause
   license_file: LICENSE
-  doc_url: https://tsdb.readthedocs.io
+  doc_url: https://docs.pypots.com/en/latest/tsdb.html
   dev_url: https://github.com/WenjieDu/TSDB
 
 extra:
