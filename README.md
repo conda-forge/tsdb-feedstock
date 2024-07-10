@@ -7,11 +7,11 @@ Home: https://github.com/WenjieDu/TSDB
 
 Package license: BSD-3-Clause
 
-Summary: a python toolbox helping load time-series datasets easily
+Summary: a Python toolbox loads 172 public time series datasets for machine learning/deep learning with a single line of code. Datasets from multiple domains, e.g. healthcare, financial, power, traffic, and weather
 
 Development: https://github.com/WenjieDu/TSDB
 
-Documentation: https://tsdb.readthedocs.io
+Documentation: https://docs.pypots.com/en/latest/tsdb.html
 
 Project TSDB is created to help researchers and engineers get rid of data collecting and downloading,
 and focus back on data processing details. TSDB provides all-in-one-stop convenience for downloading
