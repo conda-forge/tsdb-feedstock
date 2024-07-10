@@ -18,8 +18,6 @@ requirements:
   host:
     - python >=3.6
     - pip
-  run:
-    - python >=3.6
     - tqdm
     - numpy
     - scipy
@@ -27,6 +25,8 @@ requirements:
     - pyarrow
     - requests
     - scikit-learn
+  run:
+    - python >=3.6
 
 test:
   imports:
