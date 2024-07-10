@@ -20,17 +20,26 @@ requirements:
     - pip
   run:
     - python >=3.6
+    - tqdm
     - numpy
-    - scikit-learn
-    - pandas
     - scipy
+    - pandas
     - pyarrow
+    - requests
+    - scikit-learn
 
 test:
   imports:
     - tsdb
   requires:
     - pip
+    - tqdm
+    - numpy
+    - scipy
+    - pandas
+    - pyarrow
+    - requests
+    - scikit-learn
   commands:
     - pip check
 
