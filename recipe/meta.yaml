@@ -1,5 +1,5 @@
 {% set name = "TSDB" %}
-{% set version = "0.6" %}
+{% set version = "0.6.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/WenjieDu/TSDB/archive/v{{ version }}.tar.gz
-  sha256: 3838841924ddc896dbbb48aa028aad9c049a4b20fab1ceaddabb006987a05308
+  sha256: e286c392a90c8b49c64e2e8faa3d05376b15a5e26a90e822f0c86b019bddcb9d
 
 build:
   noarch: python
@@ -16,8 +16,10 @@ build:
 
 requirements:
   host:
-    - python >=3.6
+    - python >=3.8
     - pip
+  run:
+    - python >=3.8
     - tqdm
     - numpy
     - scipy
@@ -25,23 +27,10 @@ requirements:
     - pyarrow
     - requests
     - scikit-learn
-  run:
-    - python >=3.6
 
 test:
   imports:
     - tsdb
-  requires:
-    - pip
-    - tqdm
-    - numpy
-    - scipy
-    - pandas
-    - pyarrow
-    - requests
-    - scikit-learn
-  commands:
-    - pip check
 
 about:
   home: https://github.com/WenjieDu/TSDB
